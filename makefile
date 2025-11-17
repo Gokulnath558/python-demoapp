@@ -3,6 +3,7 @@ IMAGE_REG ?= ghcr.io
 IMAGE_REPO ?= benc-uk/python-demoapp
 IMAGE_TAG ?= latest
 
+
 # Used by `deploy` target, sets Azure webap defaults, override as required
 AZURE_RES_GROUP ?= temp-demoapps
 AZURE_REGION ?= uksouth
